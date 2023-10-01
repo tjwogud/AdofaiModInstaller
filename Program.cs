@@ -262,6 +262,8 @@ namespace 얼불춤_모드_자동설치기
                 Console.WriteLine();
             }
 
+            Console.WriteLine(localizations[lang]["adofaigg"]);
+            Console.WriteLine();
             Console.WriteLine(localizations[lang]["download_recommended"]);
             Console.Write("> ");
             if (Console.ReadLine()?.ToLower() == "y")
